@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap");
+:root {
+  --bg-black: #000300;
+  --text-white: #fff;
+  --text-green: #00df9a;
+  --max-width: 1240px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rethink Sans";
+  color: var(--text-white);
+  background-color: var(--bg-black);
+}
+
+.custom-hover {
+  @apply hover:border-b-2 border-[--text-green] hover:ease-in-out hover:pb-1 hover:text-[--text-green];
+}
+
+.button-hover-effects {
+  @apply hover:bg-[--text-green] hover:text-white hover:ease-in-out;
+}
+
+.shadows {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.247);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
