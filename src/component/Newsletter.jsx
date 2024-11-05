@@ -1,7 +1,7 @@
 function Newsletter() {
   return (
     <>
-      <section className="w-full py-16 px-4">
+      <section className="w-full py-16 md:py-32 px-4">
         <section className="max-w-[--max-width] mx-auto grid lg:grid-cols-3 gap-10">
           <section className="lg:col-span-2">
             <h1 className="text-2xl md:text-4xl font-bold py-2">

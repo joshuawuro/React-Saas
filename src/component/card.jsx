@@ -8,7 +8,7 @@ function Card() {
       <section className="w-full py-[10rem] px-4 bg-[--text-white] text-[--bg-black]">
         <section className="max-w-[--max-width] mx-auto grid md:grid-cols-3 gap-8">
           <section className="shadows w-full flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
-            <img className="w-20 mx-auto" src={single} alt="single" />
+            <img className="w-20 mx-auto pt-10" src={single} alt="single" />
             <h2 className="text-2xl font-bold text-center py-8">Single User</h2>
             <p className="text-center text-4xl font-bold">$149</p>
             <section className="text-center font-medium">
@@ -22,7 +22,7 @@ function Card() {
           </section>
 
           {/* Second card */}
-          <section className="shadows w-full flex flex-col p-4 my-4 md:my-0 rounded-lg hover:scale-105 duration-300 bg-gray-100">
+          <section className="shadows w-full flex flex-col p-4 my-4 md:my-0 rounded-lg hover:scale-105 duration-300 bg-gray-100 pt-10">
             <img className="w-20 mx-auto" src={double} alt="single" />
             <h2 className="text-2xl font-bold text-center py-8">Single User</h2>
             <p className="text-center text-4xl font-bold">$149</p>
@@ -37,7 +37,7 @@ function Card() {
           </section>
 
           {/* third card */}
-          <section className="shadows w-full flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+          <section className="shadows w-full flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 pt-10">
             <img className="w-20 mx-auto" src={triple} alt="single" />
             <h2 className="text-2xl font-bold text-center py-8">Single User</h2>
             <p className="text-center text-4xl font-bold">$149</p>

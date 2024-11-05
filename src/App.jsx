@@ -3,7 +3,7 @@ import Footer from "./component/Footer";
 import Hero from "./component/Hero";
 import Layout from "./pages/common/Layout";
 import Company from "./pages/Company";
-import Newsletter from "./pages/Newsletter";
+import Newsletter from "./component/Newsletter";
 
 function App() {
   return (
