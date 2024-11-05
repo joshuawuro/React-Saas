@@ -20,7 +20,7 @@ function Newsletter() {
             <button className="bg-[--text-green] text-[--bg-black] px-4 py-2 rounded-md ml-2 button-hover-effects">
               Notify me
             </button>
-            <p>
+            <p className="my-4">
               We care about the protection of your data. Read our{" "}
               <span className="text-[--text-green]">Privacy Policy</span>.
             </p>
